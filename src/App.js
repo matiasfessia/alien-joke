@@ -23,8 +23,7 @@ const App = () => {
         ],
         clock: "25",
         rotate: true,
-        width: "1440",
-        height: "796",
+        height: window.innerHeight - 10,
         start_from_edge: true,
         respawn: false,
       };
